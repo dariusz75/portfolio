@@ -1,8 +1,9 @@
 body{
 	padding: 0;
 	margin: 0;
-	color: #4D4E50
+	color: #4D4E50;
 }
+
 
 /* --######### HEADER #####################################################-- */
 header{
@@ -18,7 +19,7 @@ header{
 	position: relative;
 	top: 60px;
 	width: 100%;
-	height: 620px;
+	height: 860px;
 	background-color: #28E1CE;
 	overflow: auto;
 }
@@ -28,14 +29,14 @@ header{
 	position: relative;
 	display: inline-block;
 	width: 100%;
-	height: 580px;
+	height: 800px;
 	background-color: #67E1A0;
 }
 
 .about-text{
 	position: relative;
 	width: 80%;
-	margin: 50px auto 0px auto;
+	margin: 70px auto 0px auto;
 }
 
 .about-text p{
@@ -44,11 +45,24 @@ header{
 	font-size: 1.5em;
 }
 
+.about-social{
+	position: relative;
+	width: 80%;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
 
 .about-social .fa{
-	width: 33%;
-	display: inline-block;
 	font-size: 3em;
 	text-align: center;
-
+	color: #4D4E50;
 }
+
+.social-icons{
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 50px 0 0 22%;
+}
+
