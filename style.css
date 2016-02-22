@@ -59,7 +59,7 @@ nav ul li:hover {
 	position: relative;
 	top: 60px;
 	width: 100%;
-	height: 860px;
+	height: 650px;
 	background-color: #28E1CE;
 	overflow: auto;
 }
@@ -77,15 +77,28 @@ nav ul li:hover {
 	background-color: #67E1A0;
 }
 
+.my-photo{
+	position: relative;
+	margin: 50px auto 0 auto;
+	width: 250px;
+	height: 250px;
+	background-color: grey;
+	-moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+border-radius: 50%; /* future proofing */
+-khtml-border-radius: 50%; /* for old Konqueror browsers */
+}
+
+
 .about-text{
 	position: relative;
 	width: 80%;
-	margin: 70px auto 0px auto;
+	margin: 50px auto 0px auto;
 }
 
 .about-text p{
 	text-align: center;
-	font-size: 1.8em;
+	font-size: 1.2em;
 }
 
 .about-social{
@@ -113,40 +126,46 @@ nav ul li:hover {
 
 /* --######### SKILLS SECTION #####################################################-- */
 .skills{
-	padding: 0 20px 0 20px;
 	position: relative;
+	display: inline-block;
 	width: 100%;
-	height: 860px;
+	height: 560px;
 	background-color: #E1CC6C;
 	overflow: auto;
+}
+
+.skills h1{
+	display:table;
+    text-align: center;
+	margin: 30px auto 0 auto;
+	font-size: 1.8em;
 }
 
 .skills p{
 	text-align: center;
 	width: 80%;
 	margin: 50px auto 0px auto;
-	font-size: 2em;
+	font-size: 1.2em;
 }
 
 .skills ul{
 	position: relative;
-	width: 75%;
-	position: relative;
+	width: 80%;
 	margin: 50px auto 0px auto;
-}
-
-.skills ul li img{
-	width: 180px;
 }
 
 .skills ul li{
 	list-style: none;
 	display: inline-block;
+	padding: 0 20px 0 0 ;
+}
+
+.skills ul li img{
+	width: 120px;
 }
 
 /* --######### EXPERIENCE SECTION #####################################################-- */
 .experience{
-	padding: 0 20px 0 20px;
 	position: relative;
 	width: 100%;
 	height: 800px;
@@ -160,7 +179,7 @@ nav ul li:hover {
 }
 
 .cv .fa{
-	font-size: 5em;
+	font-size: 4.5em;
 	text-align: center;
 }
 
@@ -195,7 +214,6 @@ nav ul li:hover {
 
 /* --######### PORTFOLIO SECTION #####################################################-- */
 .portfolio{
-	padding: 0 20px 0 20px;
 	position: relative;
 	width: 100%;
 	height: 500px;
@@ -205,7 +223,6 @@ nav ul li:hover {
 
 /* --######### CONTACT SECTION #####################################################-- */
 .contact{
-	padding: 0 20px 0 20px;
 	position: relative;
 	width: 100%;
 	height: 700px;
@@ -214,7 +231,6 @@ nav ul li:hover {
 }
 
 footer{
-	padding: 0 20px 0 20px;
 	position: relative;
 	width: 100%;
 	height: 50px;
