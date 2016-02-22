@@ -215,7 +215,6 @@ border-radius: 50%; /* future proofing */
 .portfolio{
 	position: relative;
 	width: 100%;
-	height: 500px;
 	background-color: #FFAEFB;
 	overflow: auto;
 }
@@ -247,13 +246,29 @@ border-radius: 50%; /* future proofing */
 	text-align: center;
 }
 
+.first-line{
+	margin-top: 50px;
+}
 
+.linked-contact-icon{
+	display: table;
+	margin: 0px auto 0px auto;
+}
 
 /* --######### FOOTER #####################################################-- */
 footer{
 	position: relative;
 	width: 100%;
-	height: 50px;
 	background-color: #F3EAEF;
 	overflow: auto;
+}
+
+footer p{
+	margin-left: 20px;
+}
+
+.github-footer{
+	float: right;
+	display: inline-block;
+	margin: -50px 20px 0 0;
 }
